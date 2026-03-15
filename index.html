@@ -1,0 +1,539 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Nishant Gupta | Mobile App Developer</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#f4f6fb;
+color:#333;
+}
+
+/* NAVBAR */
+
+nav{
+background:#111827;
+color:white;
+padding:15px 40px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:sticky;
+top:0;
+z-index:100;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+font-size:14px;
+}
+
+nav a:hover{
+color:#60a5fa;
+}
+
+/* HERO */
+
+.hero{
+background:linear-gradient(120deg,#4f46e5,#9333ea);
+color:white;
+padding:100px 20px;
+text-align:center;
+}
+
+.hero img{
+width:130px;
+border-radius:50%;
+margin-bottom:20px;
+border:4px solid white;
+}
+
+.hero h1{
+font-size:40px;
+margin-bottom:10px;
+}
+
+.hero p{
+font-size:18px;
+max-width:700px;
+margin:auto;
+opacity:.9;
+}
+
+.contact{
+margin-top:20px;
+font-size:15px;
+}
+
+.contact a{
+color:white;
+text-decoration:none;
+}
+
+/* SECTION */
+
+.section{
+max-width:1100px;
+margin:auto;
+padding:70px 20px;
+}
+
+.section h2{
+text-align:center;
+margin-bottom:40px;
+font-size:32px;
+color:#4f46e5;
+}
+
+/* GRID */
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+/* CARD */
+
+.card{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+.card h3{
+color:#4f46e5;
+margin-bottom:10px;
+}
+
+/* EXPERIENCE */
+
+.job{
+background:white;
+padding:25px;
+border-radius:10px;
+margin-bottom:25px;
+box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+.job h3{
+color:#9333ea;
+margin-bottom:10px;
+}
+
+/* PROJECT */
+
+.project img{
+width:100%;
+border-radius:8px;
+margin-bottom:10px;
+}
+
+/* ACHIEVEMENTS */
+
+.stats{
+display:flex;
+flex-wrap:wrap;
+gap:20px;
+justify-content:center;
+}
+
+.stat{
+background:white;
+padding:30px;
+border-radius:10px;
+min-width:200px;
+text-align:center;
+box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+.stat h3{
+font-size:34px;
+color:#4f46e5;
+}
+
+/* FOOTER */
+
+footer{
+background:#111827;
+color:white;
+text-align:center;
+padding:30px;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav>
+
+<div><b>Nishant Gupta</b></div>
+
+<div>
+<a href="#skills">Skills</a>
+<a href="#experience">Experience</a>
+<a href="#projects">Projects</a>
+<a href="#education">Education</a>
+<a href="#contact">Contact</a>
+</div>
+
+</nav>
+
+<!-- HERO -->
+
+<section class="hero">
+
+<img src="https://i.pravatar.cc/200">
+
+<h1>Nishant Gupta</h1>
+
+<p>
+
+Mobile Application Developer with 4+ years of experience delivering scalable cross-platform
+applications using React Native for Android and iOS platforms. Skilled in mobile architecture,
+API integrations, payment systems, performance optimization and production deployment.
+
+</p>
+
+<div class="contact">
+
+📞 +91-9369629318  
+<br>
+📧 ng6451435@gmail.com  
+<br>
+🔗 <a href="https://www.linkedin.com/in/nishant-gupta-33727a234">LinkedIn Profile</a>
+
+</div>
+
+</section>
+
+<!-- SKILLS -->
+
+<section id="skills" class="section">
+
+<h2>Technical Skills</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Mobile Development</h3>
+<p>React Native, Android Development (Java, Kotlin), Cross-Platform Application Development.</p>
+</div>
+
+<div class="card">
+<h3>Programming Languages</h3>
+<p>JavaScript, TypeScript with strong experience in scalable application development.</p>
+</div>
+
+<div class="card">
+<h3>State Management</h3>
+<p>Redux, Context API, modular component architecture and scalable project structure.</p>
+</div>
+
+<div class="card">
+<h3>API Integration</h3>
+<p>REST APIs, GraphQL integration, authentication workflows and JSON handling.</p>
+</div>
+
+<div class="card">
+<h3>Payments & Monetization</h3>
+<p>Stripe integration, in-app purchases and subscription management systems.</p>
+</div>
+
+<div class="card">
+<h3>Tools & Platforms</h3>
+<p>Firebase, Firebase App Distribution, Crashlytics, Git, GitHub, Play Console and App Store Connect.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- EXPERIENCE -->
+
+<section id="experience" class="section">
+
+<h2>Work Experience</h2>
+
+<div class="job">
+
+<h3>Software Engineer – React Native</h3>
+<p><b>Chetu India Pvt Ltd | Dec 2023 – Present | Noida, U.P.</b></p>
+
+<ul>
+
+<li>Led end-to-end React Native development for 3+ production applications.</li>
+
+<li>Collaborated with product, design, backend and QA teams to deliver features within release timelines.</li>
+
+<li>Managed Android and iOS releases using Google Play Console and App Store Connect.</li>
+
+<li>Configured in-app purchase workflows for premium features and subscriptions.</li>
+
+<li>Resolved performance bottlenecks and reduced application crash rate by approximately 30%.</li>
+
+<li>Guided junior developers through code reviews and technical mentoring.</li>
+
+</ul>
+
+</div>
+
+<div class="job">
+
+<h3>Software Engineer – Android & React Native</h3>
+<p><b>Singsys Software Pvt Ltd | May 2022 – Dec 2023 | Lucknow, U.P.</b></p>
+
+<ul>
+
+<li>Developed cross-platform applications with a focus on UI consistency and functional accuracy.</li>
+
+<li>Performed bug fixing, performance optimization and UI improvements.</li>
+
+<li>Integrated Firebase Push Notifications and Crashlytics for monitoring.</li>
+
+<li>Integrated Facebook, Google and Instagram authentication SDKs.</li>
+
+<li>Built strong experience with REST APIs, navigation and state management.</li>
+
+</ul>
+
+</div>
+
+<div class="job">
+
+<h3>Apprenticeship Trainee</h3>
+<p><b>Softpro Pvt Ltd | Aug 2021 – Mar 2022 | Lucknow, U.P.</b></p>
+
+<ul>
+
+<li>Completed training in Basic C, Core Java and Android Development.</li>
+
+<li>Worked on collaborative development projects.</li>
+
+<li>Strengthened fundamentals in debugging and logic building.</li>
+
+</ul>
+
+</div>
+
+</section>
+
+<!-- PROJECTS -->
+
+<section id="projects" class="section">
+
+<h2>Projects</h2>
+
+<div class="grid">
+
+<div class="card project">
+
+<img src="https://images.unsplash.com/photo-1551650975-87deedd944c3">
+
+<h3>Enterprise Exhibition Showcase App (HERMLE AG)</h3>
+
+<p>
+
+Enterprise mobile application used during trade shows to present company
+information through videos, PDFs and interactive content.
+
+</p>
+
+<ul>
+
+<li>Implemented offline-first architecture using react-native-fs.</li>
+
+<li>Added ZIP extraction with react-native-zip-archive.</li>
+
+<li>Integrated Turn.js page flip navigation inside WebView.</li>
+
+<li>Used Realm database and react-native-video for media handling.</li>
+
+<li>Implemented animations using react-native-reanimated.</li>
+
+</ul>
+
+</div>
+
+<div class="card project">
+
+<img src="https://images.unsplash.com/photo-1581092335397-9fa341108fbd">
+
+<h3>Internal Ticket Management System (Decept10)</h3>
+
+<p>
+
+React Native based internal support ticketing system with real-time communication.
+
+</p>
+
+<ul>
+
+<li>Integrated Twilio for real-time chat and voice calling.</li>
+
+<li>Built ticket creation and management workflow.</li>
+
+<li>Maintained live releases on both Android and iOS stores.</li>
+
+</ul>
+
+</div>
+
+<div class="card project">
+
+<img src="https://images.unsplash.com/photo-1556745757-8d76bdb6984b">
+
+<h3>QR Security & Utility Application (NFO IQ)</h3>
+
+<p>
+
+QR code scanning security application designed to validate QR types and verify URL safety.
+
+</p>
+
+<ul>
+
+<li>Implemented react-native-iap for in-app purchases.</li>
+
+<li>Integrated Branch.io for deep linking and referral tracking.</li>
+
+<li>Maintained production releases on Android and iOS platforms.</li>
+
+</ul>
+
+</div>
+
+<div class="card project">
+
+<img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c">
+
+<h3>Ride Hailing Platform</h3>
+
+<ul>
+
+<li>Modernized customer and driver mobile applications.</li>
+
+<li>Enhanced Google Maps and Google Places API integrations.</li>
+
+<li>Improved routing accuracy and overall user experience.</li>
+
+</ul>
+
+</div>
+
+<div class="card project">
+
+<img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644">
+
+<h3>Education Management App (Funnel Edu World)</h3>
+
+<ul>
+
+<li>Built multi-role system supporting Student, Teacher and Parent accounts.</li>
+
+<li>Integrated REST APIs and developed multiple UI screens.</li>
+
+<li>Implemented features supporting academic workflows.</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- EDUCATION -->
+
+<section id="education" class="section">
+
+<h2>Education</h2>
+
+<div class="job">
+
+<h3>Bachelor of Technology – Computer Science & Engineering</h3>
+
+<p>
+Dr. M.C. Saxena College of Engineering & Technology  
+(Lucknow, U.P.)  
+<br>
+July 2022 – Dec 2025
+</p>
+
+</div>
+
+<div class="job">
+
+<h3>Diploma – Computer Science & Engineering</h3>
+
+<p>
+Government Polytechnic Madhogarh, Jalaun  
+<br>
+July 2018 – June 2021
+</p>
+
+</div>
+
+</section>
+
+<!-- ACHIEVEMENTS -->
+
+<section class="section">
+
+<h2>Achievements</h2>
+
+<div class="stats">
+
+<div class="stat">
+<h3>4+</h3>
+<p>Years Experience</p>
+</div>
+
+<div class="stat">
+<h3>30%</h3>
+<p>Crash Reduction</p>
+</div>
+
+<div class="stat">
+<h3>5+</h3>
+<p>Production Apps</p>
+</div>
+
+<div class="stat">
+<h3>2023</h3>
+<p>Shining Award</p>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 Nishant Gupta | Mobile App Developer</p>
+
+</footer>
+
+</body>
+</html>
+```
